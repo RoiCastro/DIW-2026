@@ -22,28 +22,28 @@
 
   /* ---- 1. COLOR DE FONDO GENERAL ----
      El fondo de la página y de las secciones "normales". */
-  --color-fondo: #364156;
+  --color-fondo: #334455;
 
   /* ---- 2. COLOR DE FONDO ALTERNO ----
      Para secciones que quieres diferenciar del fondo general
      (ver clase .seccion--alterna en el HTML). */
-  --color-fondo-alterno: #212D40;
+  --color-fondo-alterno: #222244;
 
   /* ---- 3. COLOR DE FONDO DE BLOQUES / TARJETAS ----
      El fondo de las tarjetas de producto y del bloque destacado. */
-  --color-bloque: #5A4857;
-  --color-bloque-borde: #11151C;
+  --color-bloque: #554455;
+  --color-bloque-borde: #112255;
 
   /* ---- 4. COLOR DE TEXTO ----
      Texto principal y texto secundario (más apagado, para descripciones). */
-  --color-texto: #D66853;
-  --color-texto-secundario: #AA5B55; /* 60% de opacidad */
+  --color-texto: #DD6655;
+  --color-texto-secundario: #AA5555; /* 60% de opacidad */
 
   /* ---- 5. COLOR DE BOTONES ----
      Botón primario (la acción principal) y su estado al pasar el ratón,
      más el botón secundario (acción menos importante). */
-  --color-boton-primario: #19212E;
-  --color-boton-primario-hover: #11151C;
+  --color-boton-primario: #1122EE;
+  --color-boton-primario-hover: #1111AA;
   --color-boton-texto: #FFFFFF;
 
   --color-boton-secundario: transparent;
@@ -53,7 +53,7 @@
   /* ---- 6. COLOR DE ACENTO ----
      Úsalo con moderación: un detalle, no todo el fondo. Aquí se usa en el
      borde izquierdo del bloque destacado ("aside"). */
-  --color-acento: #DD8271;
+  --color-acento: #DD8877;
 
   /* ---- 7. TIPOGRAFÍA ----
      --font-titulos se usa en h1, h2, h3.
@@ -76,8 +76,8 @@
         recurso (como Arial o Helvetica).
      Si cambias de tipografía, actualiza también el <link> de Google Fonts
      en el <head> de index.html. */
-  --font-titulos: 'Fraunces', Georgia, serif;
-  --font-cuerpo: 'Inter', system-ui, sans-serif;
+  --font-titulos: 'Roboto Slab', Georgia, serif;
+  --font-cuerpo: 'Scoutie Sans', system-ui, sans-serif;
 
   /* Tamaño base del texto; los demás tamaños están definidos en "em",
      así que cambiar este valor escala toda la tipografía proporcionalmente. */

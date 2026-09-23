@@ -1,0 +1,38 @@
+  /* ---- 1. COLOR DE FONDO GENERAL ---- */
+  --color-fondo: #364156;
+
+  /* ---- 2. COLOR DE FONDO ALTERNO ---- */
+  --color-fondo-alterno: #212D40;
+
+  /* ---- 3. COLOR DE FONDO DE BLOQUES / TARJETAS ---- */
+  --color-bloque: #5A4857;
+  --color-bloque-borde: #11151C;
+
+  /* ---- 4. COLOR DE TEXTO ---- */
+  --color-texto: #D66853;
+  --color-texto-secundario: #AA5B55; /* 60% de opacidad */
+
+  /* ---- 5. COLOR DE BOTONES ---- */
+  --color-boton-primario: #19212E;
+  --color-boton-primario-hover: #11151C;
+  --color-boton-texto: #FFFFFF;
+
+  --color-boton-secundario: transparent;
+  --color-boton-secundario-borde: #FFFFFF;
+  --color-boton-secundario-texto: #FFFFFF;
+
+  /* ---- 6. COLOR DE ACENTO ---- */
+  --color-acento: #DD8271;
+
+/* CSS HEX */
+--ink-black: #11151cff;
+--shadow-grey: #19212eff;
+--deep-space-blue: #212d40ff;
+--charcoal-blue: #364156ff;
+--mauve-shadow: #5a4857ff;
+--terracotta-clay: #aa5b55ff;
+--rosy-copper: #d66853ff;
+--salmon: #dd8271ff;
+
+
+La eleccion de esta pale

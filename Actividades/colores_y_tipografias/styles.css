@@ -76,8 +76,8 @@
         recurso (como Arial o Helvetica).
      Si cambias de tipografía, actualiza también el <link> de Google Fonts
      en el <head> de index.html. */
-  --font-titulos: 'Fraunces', Georgia, serif;
-  --font-cuerpo: 'Inter', system-ui, sans-serif;
+  --font-titulos: 'Cinzel', Georgia, serif;
+  --font-cuerpo: 'Scoutie Sans', system-ui, sans-serif;
 
   /* Tamaño base del texto; los demás tamaños están definidos en "em",
      así que cambiar este valor escala toda la tipografía proporcionalmente. */
