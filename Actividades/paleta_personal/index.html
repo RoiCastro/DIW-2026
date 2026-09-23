@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MTG — Magic: The Gathering</title>
+
+  <!-- Tipografías de Google Fonts: cambia estos nombres por otras que quieras
+       probar. Busca más en https://fonts.google.com y sustituye tanto el
+       enlace de aquí como las variables --font-heading / --font-body en
+       styles.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===================== CABECERA ===================== -->
+  <header class="cabecera">
+    <div class="contenedor cabecera__interior">
+      <p class="marca">MTG</p>
+        <nav class="navegacion" aria-label="Navegación principal">
+          <ul>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>      
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="contenedor hero__contenido">
+        <h1>Una colección de cartas de cada color</h1>
+        <p class="hero__texto">
+          En nuestro catálogo encontrarás cartas de todos los colores y tipos, 
+          para que puedas completar tu colección y mejorar tu mazo.
+        </p>
+        <div class="hero__acciones">
+          <button class="boton boton--primario">Ver el menú</button>
+          <button class="boton boton--secundario">Cómo llegar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BLOQUES / TARJETAS ===================== -->
+    <section id="productos" class="seccion seccion--alterna">
+      <div class="contenedor">
+        <h2>Lo que ofrecemos</h2>
+        <div class="rejilla-tarjetas">
+
+          <article class="tarjeta">
+            <h3>Cartas de Magic: The Gathering</h3>
+            <p>
+              Descubre una amplia selección de cartas de todos los colores y tipos,
+              ideales para completar tu colección y mejorar tu mazo.
+            </p>
+            <button class="boton boton--primario">Ver variedades</button>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Tapetes y dados</h3>
+            <p>
+              Complementa tu experiencia de juego con nuestros tapetes y dados
+              de alta calidad, diseñados para jugadores de todos los niveles.
+            </p>
+            <button class="boton boton--primario">Ver catálogo</button>
+          </article>
+
+          <article class="tarjeta">
+            <h3>Sobres y starter packs</h3>
+            <p>
+              Descubre una amplia selección de sobres y starter packs,
+              ideales para completar tu colección y mejorar tu mazo.
+            </p>
+            <button class="boton boton--primario">Solicitar presupuesto</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE NOSOTROS ===================== -->
+    <section id="nosotros" class="seccion">
+      <div class="contenedor seccion__dos-columnas">
+        <div>
+          <h2>Sobre nosotros</h2>
+          <p>
+            Somos una tienda especializada en cartas de Magic: The Gathering,
+            con años de experiencia en el mundo del juego de cartas coleccionables.
+            Nuestro objetivo es ofrecer a nuestros clientes productos de calidad
+            y un servicio excepcional, ayudándoles a encontrar las cartas que
+            necesitan para completar su colección y mejorar su mazo.
+          </p>
+        </div>
+        <aside class="destacado">
+          <p>
+            &ldquo;Una tienda de cartas como las de siempre.&rdquo;
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contacto" class="seccion seccion--alterna">
+      <div class="contenedor seccion--centrada">
+        <h2>Visítanos</h2>
+        <p>Calle del Horno, 12 · Abierto de martes a domingo, 11:00–19:00</p>
+        <button class="boton boton--primario">Hacer un pedido</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <p>&copy; 2026 MTG. Plantilla de práctica de diseño web.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
