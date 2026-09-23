@@ -37,7 +37,7 @@
   /* ---- 4. COLOR DE TEXTO ----
      Texto principal y texto secundario (más apagado, para descripciones). */
   --color-texto: #DD6655;
-  --color-texto-secundario: #AA5555; /* 60% de opacidad */
+  --color-texto-secundario: #AA5555; 
 
   /* ---- 5. COLOR DE BOTONES ----
      Botón primario (la acción principal) y su estado al pasar el ratón,
